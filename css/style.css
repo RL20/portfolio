@@ -1,0 +1,93 @@
+:root{
+  --background: url('./images/portfolio-background.jpeg');
+  --h3-color:brown;
+  --nav-background-color:cadetblue;
+  
+}
+html{
+  font-family: 'Ubuntu', sans-serif;
+  box-sizing: border-box;
+}
+h3{
+  /* color: brown; */
+  color: var(--h3-color);;
+}
+.card{
+  box-shadow: 1px 1px 12px 5px #4e4e4e;
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+body{
+  /* background-image: url('./images/portfolio-background.jpeg'); */
+  background-image: var(--background);;
+  background-repeat: round;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content{  
+  display: flex;  
+  flex-direction: column; 
+  padding: 5% 20%;
+}
+.wrap-header-follow-for-flex{
+  /* margin-right: 10px; */
+  display: flex;
+  /* overflow:visible; */
+  
+  
+}
+.header{
+  
+  
+  margin-right: 1%;
+  width: 80%;
+  height: 325px;
+  /* overflow:visible; */
+}
+
+
+.follow {
+
+  /* overflow:visible; */
+  /* margin-left: 10px; */
+  text-align: center;
+  width: 18%;
+  height: 325px;
+  
+}
+
+/* .description{
+  clear: both;
+} */
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+.nav-bar{
+  width: 100%;
+  height: 35px;
+  /* background-color: cadetblue; */
+  background-color: var(--nav-background-color);
+  box-shadow: 1px 1px 12px 5px #4e4e4e;
+  position: fixed;    
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 30px;
+  box-sizing: border-box;
+}
+button.login{
+  background-color: brown;
+  color: white;
+  border: none;
+  width: 86px;
+  height: 26px;
+  border-radius: 30px;
+}
