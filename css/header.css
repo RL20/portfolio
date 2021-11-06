@@ -1,0 +1,80 @@
+header{
+  height: 84px;
+  background-color: var(--nav-background-color);
+  margin-top: 40px;
+  border-radius: 80px;
+  left: 50px;
+  right: 50px;
+  position: fixed;    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+.flex{
+  display: flex;
+}
+
+.right-container ul{
+  align-items: center;
+  width: 100%;
+  max-width: 700px;
+  justify-content: space-evenly;
+}
+
+ul li {
+  margin: 0 10px;
+}
+
+.right-container {
+  width: 80%;
+  justify-content: end;
+}
+
+ul li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo{  
+  padding: 10px;
+  width: 150px;
+}
+
+.logo a {
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo a span{
+  width: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.download-cv-btn{
+  margin: 0 15px;
+  text-decoration: none;
+  color: var(--text-color);
+  border:1px solid var(--text-color);
+  border-radius: 80px;
+  padding: 20px;
+  background-color: transparent;
+}
+.right-container  a:hover{
+  color: var(--text-color);
+}
+header:before {
+  content: '';
+  position: fixed;
+  left: 45%;
+  right: 92px;
+  top: 0;
+  height: 40px;
+  background: #373b40;
+  z-index: 13;
+}
